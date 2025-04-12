@@ -29,7 +29,8 @@ const StyledButton = styled.button`
 
 const AuthButton = () => {
   const handleLogin = () => {
-    window.location.href = 'http://localhost:5000/auth/instagram/login';
+    const backendUrl = process.env.REACT_APP_BACKEND_URL;
+    window.location.href = `${backendUrl}/auth/instagram/login`;
   };
 
   return (

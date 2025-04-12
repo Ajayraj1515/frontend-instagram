@@ -10,7 +10,6 @@ const CommentInput = ({ postId, onCommentSubmit }) => {
   const handleSubmit = (event) => {
     event.preventDefault();
     if (commentText.trim()) {
-      // Implement logic to send the new comment to the backend if needed
       console.log(`Commenting on post ${postId}:`, commentText);
       onCommentSubmit(commentText);
       setCommentText('');
@@ -31,4 +30,4 @@ const CommentInput = ({ postId, onCommentSubmit }) => {
   );
 };
 
-export default CommentInput; // Make sure this line exists
+export default CommentInput;
