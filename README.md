@@ -29,7 +29,7 @@ This is the frontend part of a MERN stack project that integrates with the Insta
 ## 📦 Installation & Running Locally
 
 ```bash
-git clone https://github.com/yourusername/instagram-frontend.git
+git clone (https://github.com/Ajayraj1515/frontend-instagram.git)
 cd instagram-frontend
 npm install
 npm start
