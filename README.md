@@ -21,7 +21,7 @@ This is the frontend part of a MERN stack project that integrates with the Insta
 
 - React.js
 - Axios
-- Tailwind CSS / CSS
+- Styled-Components / CSS
 - Deployed via **Netlify**
 
 ---
